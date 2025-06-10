@@ -38,6 +38,7 @@ class Tero:
         show_border()
         print(
             "\nI learned how to collaborate effectively with others.",
+            "\n I learned how to collaborate effectively with others.",
             "\nI learned the importance of being consistent with our tasks.\n"
         )
         show_border()
