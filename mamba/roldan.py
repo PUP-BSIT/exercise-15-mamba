@@ -79,10 +79,10 @@ class Roldan:
         print("\t\t\t\t\tABOUT INTE 202")
         show_border()
         print(
-            "Course: INTE 202: Integrative Programming and "
-            "Technologies 1"
-            ,"\nProfessor: Steven Villarosa"
-            ,"Schedule: Saturday | 7:30 - 12:30"
+            "Course: INTE 202: Integrative Programming and ",
+            "Technologies 1",
+            "\nProfessor: Steven Villarosa",
+            "Schedule: Saturday | 7:30 - 12:30"
         )
         show_border()
         press_enter()
