@@ -122,4 +122,4 @@ class Tero:
             case 6:
                 pass
             case _:
-                input("\nWrong input. Press Enter to try again.")
+                input("\nInvalid input. Press Enter to try again.")
