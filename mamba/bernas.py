@@ -1,10 +1,10 @@
 import os
 
 def clear_screen():
-  os.system('cls' if os.name == 'nt' else 'clear')
+    os.system('cls' if os.name == 'nt' else 'clear')
   
 def press_enter():
-    input("\nPress Enter to proceed.")
+    input("\nPress Enter to return to menu.")
 
 def show_border():
     print(
@@ -37,13 +37,12 @@ class Bernas:
         print("\t\t\t\t\tMY TAKEAWAYS")
         show_border()
         print(
-            "\nThroughout this course, I have gained foundational "
-            "knowledge, in using Python, Git, and Github," 
-            "\nas well as valuable experience in collaborative"
-            "development but the most important lesson I've"
-            "\nlearned is 'Bilog ang Mundo' letting us know " 
-            "that we are not ALWAYS at the "
-            "TOP, people will"
+            "\nThroughout this course, I have gained foundational",
+            "knowledge, in using Python, Git, and Github,",
+            "\nas well as valuable experience in collaborative",
+            "development but the most important lesson I've",
+            "\nlearned is 'Bilog ang Mundo' letting us know",
+            "that we are not ALWAYS at the TOP, people will",
             "\neventually LEARN MORE as they proceed in life.\n"
         )
         show_border()
@@ -55,11 +54,11 @@ class Bernas:
         print("\t\t\t\t\tCOLLABORATIVE EXPERIENCE")
         show_border()
         print(
-            "\n- Communication is the KEY"
-            "\n- Think before you Click"
-            "\n- Your Achievement is also your Team's Achievement"
-            "\n- Find the BEST members that fits your LEADERSHIP"
-            "\n- 50/50 in working with them again due to Time "
+            "\n- Communication is the KEY",
+            "\n- Think before you Click",
+            "\n- Your Achievement is also your Team's Achievement",
+            "\n- Find the BEST members that fits your LEADERSHIP",
+            "\n- 50/50 in working with them again due to Time",
             "Management\n"
         )
         show_border()
@@ -71,10 +70,10 @@ class Bernas:
         print("\t\t\t\t\tSKILLS")
         show_border()
         print(
-            "\n- Excellent Communication Skill"
-            "\n- Excellent Collaboration Skill"
-            "\n- Proficiency in Github/Gitbash"
-            "\n- Basic Knowledge in Python"
+            "\n- Excellent Communication Skill",
+            "\n- Excellent Collaboration Skill",
+            "\n- Proficiency in Github/Gitbash",
+            "\n- Basic Knowledge in Python",
             "\n- Good Time Management\n"
         )
         show_border()
@@ -86,10 +85,10 @@ class Bernas:
         print("\t\t\t\t\tABOUT INTE 202")
         show_border()
         print(
-            "\nCourse: INTE 202: Integrative Programming and "
-            "Technologies 1"
-            ,"\nProfessor: Steven Villarosa"
-            ,"\nSchedule: Saturday | 7:30 - 12:30\n"
+            "\nCourse: INTE 202: Integrative Programming and ",
+            "Technologies 1",
+            "\nProfessor: Steven Villarosa",
+            "\nSchedule: Saturday | 7:30 - 12:30\n"
         )
         show_border()
         press_enter()
