@@ -35,6 +35,6 @@ def process_user_input(user_input):
         case 5:
             pass
         case _:
-            input("\nWrong input. Press Enter to try again.")
+            input("\ninvalid input. Press Enter to try again.")
 
 menu()

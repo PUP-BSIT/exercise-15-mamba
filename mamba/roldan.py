@@ -10,12 +10,12 @@ def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
   
 def press_enter():
-    input("\nPress Enter to return to display_get_user_input.")
+    input("\nPress Enter to return to menu.")
 
 class Roldan:
     def __init__(self):
         self.name = "Gian Rafael B. Roldan"
-        self.course = "BS Information Technology"
+        self.course = "BSIT"
         self.year = "2" 
         self.section = "1"
 
@@ -25,7 +25,7 @@ class Roldan:
         print("\t\t\t\t\tGREETINGS")
         show_border()
         print(
-            f"\nHi! My name is {self.name}.\n"
+            f"\nHi! My name is {self.name}.\n",
             f"I am from {self.course} {self.year} - {self.section}.\n"
         )
         show_border()
@@ -122,4 +122,4 @@ class Roldan:
             case 6:
                 pass
             case _:
-                input("\nWrong input. Press Enter to try again.")                    
+                input("\nInvalid input. Press Enter to try again.")                    
