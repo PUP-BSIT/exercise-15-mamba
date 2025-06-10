@@ -25,8 +25,8 @@ class Tero:
         print("\t\t\t\t\tGreetings!")
         show_border()
         print(
-            f"\nHello! My name is {self.name}.\n"
-            f"I am from {self.course} {self.year} - {self.section}.\n"
+            f"\nHello! My name is {self.name}."
+            f"\nI am from {self.course} {self.year} - {self.section}.\n"
         )
         show_border()
         press_enter()
@@ -37,8 +37,8 @@ class Tero:
         print("\t\t\t\t\tMy Takeaways")
         show_border()
         print(
-            "\n I learned how to collaborate effectively with others.\n",
-            "I learned the importance of being consistent with our tasks.\n"
+            "\n I learned how to collaborate effectively with others.",
+            "\nI learned the importance of being consistent with our tasks.\n"
         )
         show_border()
         press_enter()
@@ -49,12 +49,12 @@ class Tero:
         print("\t\t\t\tCollaborative Experience")
         show_border()
         print(
-            "\nWorking with my group taught me"
-            "how to communicate clearly,\n"
-            "divide responsibilities fairly,"
-            " and help each other troubleshoot code.\n"
-            "By using GitHub it helped us track changes and"
-            "avoid/solved conflicts in our codebase."
+            "\nWorking with my group taught me",
+            "how to communicate clearly,\n",
+            "divide responsibilities fairly,",
+            " and help each other troubleshoot code.\n",
+            "By using GitHub it helped us track changes and",
+            "avoid/solved conflicts in our codebase.\n"
         )
         show_border()
         press_enter()
@@ -66,10 +66,10 @@ class Tero:
         show_border()
         print(
             "\nThe Skills I've gained are: \n\n",
-            "-Collaborating using GitHub and GitBash"
-            "and managing repositories.\n",
-            "-Python syntaxes and proper logic.\n",
-            "-Proper Communication."
+            "- Collaborating using GitHub and GitBash",
+            " and managing repositories.\n",
+            "- Python syntaxes and proper logic.\n",
+            "- Proper Communication.\n"
         )
         show_border()
         press_enter()
@@ -98,13 +98,13 @@ class Tero:
         while True:
             clear_screen()
             show_border()
-            print("\t\t\t\t\tBuenacifra Menu")
+            print("\t\t\t\t\Tero Menu")
             show_border()
-            print("\n1. Greetings\n")
-            print("2. My Takeaways\n")
-            print("3. Collaborative Experience\n")
-            print("4. Skills\n")
-            print("5. About Integrative Programming\n")
+            print("\n1. Greetings")
+            print("2. My Takeaways")
+            print("3. Collaborative Experience")
+            print("4. Skills")
+            print("5. About Integrative Programming")
             print("6. Return to Main Menu\n")
             return int(input("Please select an option (1 - 6): "))
 
