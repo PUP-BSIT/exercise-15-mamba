@@ -39,7 +39,7 @@ class Buenacifra:
         print(
             "\nBeing held to high standards means you stay mentally present", 
             "and focused in every class or task, \ndeveloping the discipline",
-            "to push through difficult or repetitive programming challenges." 
+            "to push through difficult or repetitive programming challenges.\n" 
         )
         show_border()
         press_enter()
@@ -80,7 +80,7 @@ class Buenacifra:
             "\nCourse: INTE 202: Integrative Programming",
             "and Technologies 1",
             "\nProfessor: Steven S. Villarosa",
-            "\nSchedule: Saturday, 7:30 AM - 12:30 PM"
+            "\nSchedule: Saturday, 7:30 AM - 12:30 PM\n"
         )
         show_border()
         press_enter()
