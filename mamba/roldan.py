@@ -76,13 +76,13 @@ class Roldan:
     def show_about_integ(self):
         clear_screen()
         show_border()
-        print("\t\t\t\t\tABOUT INTE 202")
+        print("\t\t\t\tAbout Integrative Programming")
         show_border()
         print(
-            "\nCourse: INTE 202: Integrative Programming and ",
-            "Technologies 1",
-            "\nProfessor: Steven Villarosa",
-            "Schedule: Saturday | 7:30 - 12:30\n"
+            "\nCourse: INTE 202: Integrative Programming",
+            "and Technologies 1\n",
+            "Professor: Steven S. Villarosa\n",
+            "Schedule: Saturday, 7:30 AM - 12:30 PM\n"
         )
         show_border()
         press_enter()
