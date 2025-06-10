@@ -25,8 +25,8 @@ class Buenacifra:
         print("\t\t\t\t\tGreetings!")
         show_border()
         print(
-            f"\nHi! My name is {self.name}.\n",
-            f"I am from {self.course} {self.year} - {self.section}.\n"
+            f"\nHi! My name is {self.name}.",
+            f"\nI am from {self.course} {self.year} - {self.section}.\n"
         )
         show_border()
         press_enter()
@@ -37,9 +37,9 @@ class Buenacifra:
         print("\t\t\t\t\tMy Takeaways")
         show_border()
         print(
-            "\nBeing held to high standards means you stay mentally present\n", 
-            "and focused in every class or task, developing the discipline\n",
-            "to push through difficult or repetitive programming challenges.\n" 
+            "\nBeing held to high standards means you stay mentally present", 
+            "and focused in every class or task, \ndeveloping the discipline",
+            "to push through difficult or repetitive programming challenges." 
         )
         show_border()
         press_enter()
@@ -50,8 +50,8 @@ class Buenacifra:
         print("\t\t\t\tCollaborative Experience")
         show_border()
         print(
-            "\nIn our group collaboration, I had a great experience.\n",
-            "We had our ups and downs, and we didn't let it ruin us.\n",
+            "\nIn our group collaboration, I had a great experience.",
+            "We had our ups and downs, and we didn't \nlet it ruin us.",
             "We were able to share insights and by that, we learned a lot.\n"
         )
         show_border()
@@ -78,9 +78,9 @@ class Buenacifra:
         show_border()
         print(
             "\nCourse: INTE 202: Integrative Programming",
-            "and Technologies 1\n",
-            "Professor: Steven S. Villarosa\n",
-            "Schedule: Saturday, 7:30 AM - 12:30 PM\n"
+            "and Technologies 1",
+            "\nProfessor: Steven S. Villarosa",
+            "\nSchedule: Saturday, 7:30 AM - 12:30 PM"
         )
         show_border()
         press_enter()
@@ -121,3 +121,5 @@ class Buenacifra:
                 pass
             case _:
                 input("\nInvalid input. Press Enter to try again.")
+
+Buenacifra().show_menu()
