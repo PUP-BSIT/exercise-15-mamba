@@ -122,7 +122,4 @@ class Roldan:
             case 6:
                 pass
             case _:
-                input("\nInvalid input. Press Enter to try again.")         
-
-show = Roldan()
-show.show_menu()           
+                input("\nInvalid input. Press Enter to try again.")
