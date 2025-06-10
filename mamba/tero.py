@@ -37,7 +37,7 @@ class Tero:
         print("\t\t\t\t\tMy Takeaways")
         show_border()
         print(
-            "\n I learned how to collaborate effectively with others.",
+            "\nI learned how to collaborate effectively with others.",
             "\nI learned the importance of being consistent with our tasks.\n"
         )
         show_border()
@@ -49,7 +49,7 @@ class Tero:
         print("\t\t\t\tCollaborative Experience")
         show_border()
         print(
-            "\nWorking with my group taught me",
+            "\n Working with my group taught me",
             "how to communicate clearly,\n",
             "divide responsibilities fairly,",
             " and help each other troubleshoot code.\n",
@@ -62,7 +62,7 @@ class Tero:
     def show_skills(self):
         clear_screen()
         show_border()
-        print("\t\t\t\t\t\tSkills")
+        print("\t\t\t\t\tSkills")
         show_border()
         print(
             "\nThe Skills I've gained are: \n\n",
@@ -98,7 +98,7 @@ class Tero:
         while True:
             clear_screen()
             show_border()
-            print("\t\t\t\t\Tero Menu")
+            print("\t\t\t\t\tTero Menu")
             show_border()
             print("\n1. Greetings")
             print("2. My Takeaways")
