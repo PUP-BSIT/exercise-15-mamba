@@ -52,7 +52,7 @@ class Tero:
             "\n Working with my group taught me",
             "how to communicate clearly,\n",
             "divide responsibilities fairly,",
-            " and help each other troubleshoot code.\n",
+            "and help each other troubleshoot code.\n",
             "By using GitHub it helped us track changes and",
             "avoid/solved conflicts in our codebase.\n"
         )
