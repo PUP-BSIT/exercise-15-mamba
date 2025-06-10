@@ -25,7 +25,7 @@ class Buenacifra:
         print("\t\t\t\t\tGreetings!")
         show_border()
         print(
-            f"\nHi! My name is {self.name}.\n"
+            f"\nHi! My name is {self.name}.\n",
             f"I am from {self.course} {self.year} - {self.section}.\n"
         )
         show_border()
@@ -37,8 +37,8 @@ class Buenacifra:
         print("\t\t\t\t\tMy Takeaways")
         show_border()
         print(
-            "\nBeing held to high standards means you stay mentally present\n" 
-            "and focused in every class or task, developing the discipline\n"
+            "\nBeing held to high standards means you stay mentally present\n", 
+            "and focused in every class or task, developing the discipline\n",
             "to push through difficult or repetitive programming challenges.\n" 
         )
         show_border()
@@ -50,8 +50,8 @@ class Buenacifra:
         print("\t\t\t\tCollaborative Experience")
         show_border()
         print(
-            "\nIn our group collaboration, I had a great experience.\n"
-            "We had our ups and downs, and we didn't let it ruin us.\n"
+            "\nIn our group collaboration, I had a great experience.\n",
+            "We had our ups and downs, and we didn't let it ruin us.\n",
             "We were able to share insights and by that, we learned a lot.\n"
         )
         show_border()
@@ -63,9 +63,9 @@ class Buenacifra:
         print("\t\t\t\t\t\tSkills")
         show_border()
         print(
-            "\nThe skills I've gained are: \n\n"
-            "- Python Syntax and Coding Guidelines\n"
-            "- Collaboration using GitHub and Gitbash\n"
+            "\nThe skills I've gained are: \n\n",
+            "- Python Syntax and Coding Guidelines\n",
+            "- Collaboration using GitHub and Gitbash\n",
             "- Object-Oriented Programming\n"
         )
         show_border()
@@ -77,9 +77,9 @@ class Buenacifra:
         print("\t\t\t\tAbout Integrative Programming")
         show_border()
         print(
-            "\nCourse: INTE 202: Integrative Programming"
-            "and Technologies 1\n"
-            "Professor: Steven S. Villarosa\n"
+            "\nCourse: INTE 202: Integrative Programming",
+            "and Technologies 1\n",
+            "Professor: Steven S. Villarosa\n",
             "Schedule: Saturday, 7:30 AM - 12:30 PM\n"
         )
         show_border()
@@ -120,4 +120,4 @@ class Buenacifra:
             case 6:
                 pass
             case _:
-                input("\nWrong input. Press Enter to try again.")
+                input("\nInvalid input. Press Enter to try again.")
