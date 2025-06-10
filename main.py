@@ -1,7 +1,7 @@
 
 from mamba.buenacifra import Buenacifra, clear_screen, show_border
 
-from mamba.tero import  Tero, clear_screen, show_border
+from mamba.tero import Tero
 
 def menu():
     user_input = 0
