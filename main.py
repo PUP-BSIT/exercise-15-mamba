@@ -1,7 +1,7 @@
-
+from mamba.bernas import Bernas
 from mamba.buenacifra import Buenacifra, clear_screen, show_border
 from mamba.roldan import Roldan
-
+from mamba.tero import Tero
 
 def menu():
     user_input = 0
@@ -25,16 +25,16 @@ def display_get_user_input():
 def process_user_input(user_input):
     match user_input:
         case 1:
-            
+            Bernas().show_menu()
         case 2:
             Buenacifra().show_menu()
         case 3:
             Roldan().show_menu()
         case 4:
-            
+            Tero().show_menu()
         case 5:
+            print("Exiting...")
             pass
         case _:
-            input("\ninvalid input. Press Enter to try again.")
-
+            input("\nInvalid input. Press Enter to try again.")
 menu()
