@@ -1,4 +1,4 @@
-
+from mamba.bernas import Bernas
 from mamba.buenacifra import Buenacifra, clear_screen, show_border
 
 
@@ -25,7 +25,7 @@ def display_get_user_input():
 def process_user_input(user_input):
     match user_input:
         case 1:
-            
+            Bernas().show_menu()
         case 2:
             Buenacifra().show_menu()
         case 3:
