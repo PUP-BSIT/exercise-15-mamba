@@ -121,5 +121,3 @@ class Buenacifra:
                 pass
             case _:
                 input("\nInvalid input. Press Enter to try again.")
-
-Buenacifra().show_menu()
