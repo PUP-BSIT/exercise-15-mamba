@@ -130,5 +130,3 @@ class Bernas:
                 pass
             case _:
                 input("\nWrong input. Press Enter to try again.")
-bernas = Bernas()
-bernas.show_menu()
