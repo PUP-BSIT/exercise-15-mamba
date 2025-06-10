@@ -25,8 +25,8 @@ class Roldan:
         print("\t\t\t\t\tGREETINGS")
         show_border()
         print(
-            f"\nHi! My name is {self.name}.\n",
-            f"I am from {self.course} {self.year} - {self.section}.\n"
+            f"\nHi! My name is {self.name}.",
+            f"\nI am from {self.course} {self.year} - {self.section}.\n"
         )
         show_border()
         press_enter()
@@ -37,10 +37,10 @@ class Roldan:
         print("\t\t\t\t\tMY TAKEAWAYS")
         show_border()
         print(
-            "This course taught me how to use Python, Git, and GitHub.\n",
-            "I learned that teamwork helps us grow faster.\n",
-            "Mistakes are normal and help me get better.\n",
-            "The best lesson is to keep learning and never give up.\n"
+            "\nThis course taught me how to use Python, Git, and GitHub.",
+            "\nI learned that teamwork helps us grow faster.",
+            "\nMistakes are normal and help me get better.",
+            "\nThe best lesson is to keep learning and never give up.\n"
         )
         show_border()
         press_enter()
@@ -48,13 +48,13 @@ class Roldan:
     def show_collaborative_experience(self):
         clear_screen()
         show_border()
-        print("\t\t\t\t\tCOLLABORATIVE EXPERIENCE")
+        print("\t\t\t\tCOLLABORATIVE EXPERIENCE")
         show_border()
         print(
-            "Working with my classmates helped me learn new things.\n",
-            "We solved problems together and supported each other.\n",
-            "Sharing ideas made our projects better.\n",
-            "Collaboration taught me the value of teamwork and communication.\n"
+            "\nWorking with my classmates helped me learn new things.",
+            "\nWe solved problems together and supported each other.",
+            "\nSharing ideas made our projects better.",
+            "\nollaboration taught me the value of teamwork and communication.\n"
         )
         show_border()
         press_enter()
@@ -65,10 +65,10 @@ class Roldan:
         print("\t\t\t\t\tSKILLS")
         show_border()
         print(
-            "I learned to use Git and GitHub for version control.\n",
-            "I improved my Python programming skills.\n",
-            "I learned to work better in a team.\n",
-            "I became more confident in my coding abilities.\n"
+            "\nI learned to use Git and GitHub for version control.",
+            "\nI improved my Python programming skills.",
+            "\nI learned to work better in a team.",
+            "\nI became more confident in my coding abilities.\n"
         )
         show_border()
         press_enter()
@@ -79,10 +79,10 @@ class Roldan:
         print("\t\t\t\t\tABOUT INTE 202")
         show_border()
         print(
-            "Course: INTE 202: Integrative Programming and ",
+            "\nCourse: INTE 202: Integrative Programming and ",
             "Technologies 1",
             "\nProfessor: Steven Villarosa",
-            "Schedule: Saturday | 7:30 - 12:30"
+            "Schedule: Saturday | 7:30 - 12:30\n"
         )
         show_border()
         press_enter()
@@ -122,4 +122,7 @@ class Roldan:
             case 6:
                 pass
             case _:
-                input("\nInvalid input. Press Enter to try again.")                    
+                input("\nInvalid input. Press Enter to try again.")         
+
+show = Roldan()
+show.show_menu()           
