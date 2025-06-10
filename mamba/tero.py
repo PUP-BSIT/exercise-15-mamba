@@ -37,7 +37,7 @@ class Tero:
         print("\t\t\t\t\tMy Takeaways")
         show_border()
         print(
-            "\nI learned how to collaborate effectively with others.\n",
+            "\n I learned how to collaborate effectively with others.\n",
             "I learned the importance of being consistent with our tasks.\n"
         )
         show_border()
@@ -52,7 +52,7 @@ class Tero:
             "\nWorking with my group taught me"
             "how to communicate clearly,\n"
             "divide responsibilities fairly,"
-            "and help each other troubleshoot code.\n"
+            " and help each other troubleshoot code.\n"
             "By using GitHub it helped us track changes and"
             "avoid/solved conflicts in our codebase."
         )
@@ -68,7 +68,8 @@ class Tero:
             "\nThe Skills I've gained are: \n\n",
             "-Collaborating using GitHub and GitBash"
             "and managing repositories.\n",
-            "-Python syntaxes and proper logic.\n"
+            "-Python syntaxes and proper logic.\n",
+            "-Proper Communication."
         )
         show_border()
         press_enter()
@@ -79,7 +80,7 @@ class Tero:
         print("\t\t\t\tAbout Integrative Programming")
         show_border()
         print(
-            "\nCourse: INTE 202: Integrative Programming",
+            "\n Course: INTE 202: Integrative Programming",
             "and Technologies 1\n",
             "Professor: Steven S. Villarosa\n",
             "Schedule: Saturday, 7:30 AM - 12:30 PM\n"
